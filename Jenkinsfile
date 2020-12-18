@@ -14,7 +14,7 @@ pipeline{
 					extensions: [],
 					submoduleCfg: [], 
 					userRemoteConfigs: [[credentialsId: 'gitHUB_credentials', 
-					url: 'https://github.com/hbnreddy/Hospital-Management-System.git']]])  
+					url: 'https://github.com/hbnreddy/HMS.git']]])  
                 }
             }
             stage("Build"){
